@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>List Smartphone</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>                                                      
+    <form id="search-smartphone">
+        <input type="text" id="search-input" placeholder="Search by model">
+        <button type="submit">Search</button>
+    </form>
+    
+    <form id="add-smartphone">
+        <h1>Form create/update</h1>
+        <table>
+            <tr>
+                <td><label for="producer">Producer:</label></td>
+                <td><input type="text" id="producer" placeholder="producer"></td>
+            </tr>
+            <tr>
+                <td><label for="model">Model:</label></td>
+                <td><input type="text" id="model" placeholder="model"></td>
+            </tr>
+            <tr>
+                <td><label for="price">Price:</label></td>
+                <td><input type="text" id="price" placeholder="price"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Add/Update" /></td>
+            </tr>
+        </table>
+    </form>
+    <h1 id="title">List smartphone</h1>
+    <div id="div-btn">
+        <button onclick="successHandler()" id="display">Display list smartphone</button>
+        <button onclick="displayFormCreate()" id="display-create">Create new smartphone</button>
+    </div>
+    <div id="smartphoneList"></div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+/* Đặt lại mặc định cho toàn bộ trang */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Định dạng cho body */
+body {
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Định dạng cho tiêu đề */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Định dạng cho form tìm kiếm */
+#search-smartphone {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#search-smartphone input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+#search-smartphone button {
+    padding: 10px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#search-smartphone button:hover {
+    background: #0056b3;
+}
+
+/* Định dạng cho form thêm/cập nhật smartphone */
+#add-smartphone {
+    display: none;
+    width: 400px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#add-smartphone h1 {
+    margin-bottom: 20px;
+}
+
+#add-smartphone table {
+    width: 100%;
+}
+
+#add-smartphone table td {
+    padding: 10px;
+}
+
+#add-smartphone table input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#add-smartphone table input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#add-smartphone table input[type="submit"]:hover {
+    background: #218838;
+}
+
+/* Định dạng cho phần nút hiển thị */
+#div-btn {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#div-btn button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#div-btn button:hover {
+    background: #0056b3;
+}
+
+/* Định dạng cho bảng hiển thị danh sách smartphone */
+#display-list {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display-list th, #display-list td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+#display-list th {
+    background: #f8f8f8;
+}
+
+#display-list td button {
+    padding: 5px 10px;
+    background: #dc3545;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#display-list td button:hover {
+    background: #c82333;
+}
+
+/* Ẩn tiêu đề ban đầu */
+#title {
+    display: none;
+}

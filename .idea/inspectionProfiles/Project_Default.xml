@@ -1,0 +1,41 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="codegym" />
+          <option value="codegym" />
+          <option value="codegym" />
+          <option value="codegym" />
+          <option value="codegym" />
+          <option value="codegym" />
+          <option value="codegym" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.springframework:spring-webmvc:5.3.23" />
+          <option value="org.springframework:spring-core:4.3.17.RELEASE" />
+          <option value="org.springframework:spring-context:4.3.17.RELEASE" />
+          <option value="org.springframework:spring-web:4.3.17.RELEASE" />
+          <option value="org.springframework:spring-beans:4.3.17.RELEASE" />
+          <option value="com.google.protobuf:protobuf-java:3.19.4" />
+          <option value="commons-fileupload:commons-fileupload:1.4" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
